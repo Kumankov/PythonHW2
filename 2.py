@@ -12,6 +12,5 @@ with open("input2.txt") as inputFile:
 sum=0
 for i in range(1,N+1):
     sum=sum+i
-print (sum)
 with open("output2.txt", "w") as outputFile:
     outputFile.write(str(sum))
